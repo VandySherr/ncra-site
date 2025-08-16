@@ -1,4 +1,3 @@
-
 import React from "react";
 
 export default function HomePage() {
@@ -63,19 +62,23 @@ export default function HomePage() {
           </button>
         </section>
 
-        {/* Contact Form */}
+        {/* Contact Form (Replaced with Google Form Embed) */}
         <section id="contact" className="bg-white p-8 rounded-2xl shadow-lg space-y-4">
           <h2 className="text-3xl font-semibold text-blue-700">Contact / Intake Form</h2>
-          <form className="grid gap-4 max-w-xl mx-auto">
-            <input placeholder="Agency / Organization Name" className="border border-gray-300 p-3 rounded-lg" />
-            <input placeholder="Primary Contact Name" className="border border-gray-300 p-3 rounded-lg" />
-            <input placeholder="Email Address" type="email" className="border border-gray-300 p-3 rounded-lg" />
-            <input placeholder="Phone Number" type="tel" className="border border-gray-300 p-3 rounded-lg" />
-            <textarea placeholder="Additional Notes or Questions" className="border border-gray-300 p-3 rounded-lg"></textarea>
-            <button type="submit" className="px-6 py-3 bg-blue-700 text-white font-semibold rounded-lg hover:bg-blue-800">
-              Submit Request
-            </button>
-          </form>
+          <div className="w-full h-[900px]">
+            <iframe
+              src="https://forms.gle/DWCvEEucbA5GxkcH8"
+              width="100%"
+              height="100%"
+              frameBorder="0"
+              marginHeight="0"
+              marginWidth="0"
+              title="NCRA Contact Form"
+              className="rounded-lg border border-gray-300"
+            >
+              Loading…
+            </iframe>
+          </div>
         </section>
 
         {/* Resource Hub */}
