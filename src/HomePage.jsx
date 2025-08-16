@@ -27,9 +27,13 @@ export default function HomePage() {
             <button className="px-6 py-3 bg-blue-700 text-white font-semibold rounded-lg hover:bg-blue-800">
               Request Training
             </button>
-            <button className="px-6 py-3 border border-blue-700 text-blue-700 font-semibold rounded-lg hover:bg-blue-50">
+            <a
+              href="/resources/Core%20Competencies%20statement.docx"
+              download
+              className="px-6 py-3 border border-blue-700 text-blue-700 font-semibold rounded-lg hover:bg-blue-50"
+            >
               Download Capability Statement
-            </button>
+            </a>
           </div>
         </section>
 
@@ -43,9 +47,13 @@ export default function HomePage() {
             <li>Mental Health Clinicians, Juvenile Justice Professionals</li>
           </ul>
           <p>Curriculum includes trauma-informed care, adolescent behavior, autism response, de-escalation tactics, and more.</p>
-          <button className="px-4 py-2 border border-blue-700 text-blue-700 font-semibold rounded-lg hover:bg-blue-50">
+          <a
+            href="/resources/NCRA_Program_Overview_Flyer_Packet_Branded.docx"
+            download
+            className="px-4 py-2 border border-blue-700 text-blue-700 font-semibold rounded-lg hover:bg-blue-50"
+          >
             Download Program Guide
-          </button>
+          </a>
         </section>
 
         {/* Cost Savings */}
@@ -57,9 +65,13 @@ export default function HomePage() {
             <li>Grant Support and Application Assistance</li>
             <li>Custom Fiscal Impact Reports</li>
           </ul>
-          <button className="px-4 py-2 border border-blue-700 text-blue-700 font-semibold rounded-lg hover:bg-blue-50">
+          <a
+            href="/resources/NCRA_Grant_Narrative_for_Agency_Use.docx"
+            download
+            className="px-4 py-2 border border-blue-700 text-blue-700 font-semibold rounded-lg hover:bg-blue-50"
+          >
             Download Grant Narrative
-          </button>
+          </a>
         </section>
 
         {/* Contact Form (Replaced with Google Form Embed) */}
@@ -85,11 +97,42 @@ export default function HomePage() {
         <section id="resources" className="bg-white p-8 rounded-2xl shadow-lg space-y-4">
           <h2 className="text-3xl font-semibold text-blue-700">Resource Hub</h2>
           <ul className="list-disc list-inside text-gray-700 space-y-1">
-            <li><a href="#" className="text-blue-600 underline">Program Overview Flyer (PDF)</a></li>
-            <li><a href="#" className="text-blue-600 underline">Capability Statement (PDF)</a></li>
-            <li><a href="#" className="text-blue-600 underline">Grant Narrative (Word)</a></li>
-            <li><a href="#" className="text-blue-600 underline">Officer Confidence Survey Packet (PDF)</a></li>
-            <li><a href="#" className="text-blue-600 underline">Business Plan for Agencies (PDF)</a></li>
+            <li>
+              <a
+                href="/resources/NCRA_Program_Overview_Flyer_Packet_Branded.docx"
+                className="text-blue-600 underline"
+                download
+              >
+                Program Overview Flyer (DOCX)
+              </a>
+            </li>
+            <li>
+              <a
+                href="/resources/Core%20Competencies%20statement.docx"
+                className="text-blue-600 underline"
+                download
+              >
+                Capability Statement (DOCX)
+              </a>
+            </li>
+            <li>
+              <a
+                href="/resources/NCRA_Grant_Narrative_for_Agency_Use.docx"
+                className="text-blue-600 underline"
+                download
+              >
+                Grant Narrative (DOCX)
+              </a>
+            </li>
+            <li>
+              <a
+                href="/resources/NCRA_Custom_Quote_and_Grant_Support_Packet.docx"
+                className="text-blue-600 underline"
+                download
+              >
+                Officer Confidence Survey Packet (DOCX)
+              </a>
+            </li>
           </ul>
         </section>
       </main>
