@@ -28,13 +28,6 @@ function HomePage() {
         <button className="px-6 py-3 bg-yellow-600 text-white font-semibold rounded-lg hover:bg-yellow-700">
           Request Training
         </button>
-        <a
-          href="/resources/Core%20Competencies%20statement.docx"
-          download
-          className="px-6 py-3 border border-yellow-600 text-yellow-600 font-semibold rounded-lg hover:bg-yellow-50"
-        >
-          Download Capability Statement
-        </a>
       </div>
     </section>
   );
@@ -51,13 +44,6 @@ function ProgramPage() {
         <li>Mental Health Clinicians, Juvenile Justice Professionals</li>
       </ul>
       <p>Curriculum includes trauma-informed care, adolescent behavior, autism response, de-escalation tactics, and more.</p>
-      <a
-        href="/resources/NCRA_Program_Overview_Flyer_Packet_Branded.docx"
-        download
-        className="px-4 py-2 border border-yellow-600 text-yellow-600 font-semibold rounded-lg hover:bg-yellow-50"
-      >
-        Download Program Guide
-      </a>
     </section>
   );
 }
@@ -72,13 +58,6 @@ function GrantsPage() {
         <li>Grant Support and Application Assistance</li>
         <li>Custom Fiscal Impact Reports</li>
       </ul>
-      <a
-        href="/resources/NCRA_Grant_Narrative_for_Agency_Use.docx"
-        download
-        className="px-4 py-2 border border-yellow-600 text-yellow-600 font-semibold rounded-lg hover:bg-yellow-50"
-      >
-        Download Grant Narrative
-      </a>
     </section>
   );
 }
@@ -109,28 +88,7 @@ function ResourcesPage() {
   return (
     <section className="bg-white p-8 rounded-2xl shadow-lg space-y-4">
       <h2 className="text-3xl font-semibold text-yellow-600">Resource Hub</h2>
-      <ul className="list-disc list-inside text-gray-700 space-y-1">
-        <li>
-          <a href="/resources/NCRA_Program_Overview_Flyer_Packet_Branded.docx" className="text-yellow-700 underline" download>
-            Program Overview Flyer (DOCX)
-          </a>
-        </li>
-        <li>
-          <a href="/resources/Core%20Competencies%20statement.docx" className="text-yellow-700 underline" download>
-            Capability Statement (DOCX)
-          </a>
-        </li>
-        <li>
-          <a href="/resources/NCRA_Grant_Narrative_for_Agency_Use.docx" className="text-yellow-700 underline" download>
-            Grant Narrative (DOCX)
-          </a>
-        </li>
-        <li>
-          <a href="/resources/NCRA_Custom_Quote_and_Grant_Support_Packet.docx" className="text-yellow-700 underline" download>
-            Officer Confidence Survey Packet (DOCX)
-          </a>
-        </li>
-      </ul>
+      <p className="text-gray-600">Resources will be linked here soon.</p>
     </section>
   );
 }
