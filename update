@@ -1,7 +1,0 @@
-npm install
-git init
-git remote add origin https://github.com/VandySherr/ncra-site.git
-git checkout -b main
-git add .
-git commit -m "Deploy: routing and branding update"
-git push origin main --force
